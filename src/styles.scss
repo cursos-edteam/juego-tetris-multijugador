@@ -1,0 +1,66 @@
+body {
+  background-color: bisque;
+}
+
+#container, #canvasContainer {
+  display: none;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  width: 300px;
+  margin: auto;
+  margin-top: 25vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #000;
+  background: #FFF;
+}
+
+h3 {
+  color: #F90;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  background: #050054;
+  color: #FFF;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 200px;
+}
+
+input {
+  padding: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+#messages {
+  margin-top: 10px;
+  color: #FF0000;
+  text-align: center;
+  font-size: 12px;
+}
+
+#sections {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  text-decoration: none;
+}
+
+div {
+  font-size: 15px;
+  color: #333333;
+  margin-bottom: 10px;
+}
